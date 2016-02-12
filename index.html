@@ -76,6 +76,11 @@ body {
     color: #333;
 }
 
+.logo-gagu {
+    width: auto;
+    max-width: 70%;
+}
+
 @media (min-width: 768px) {
     .mastfoot {
         position: fixed;
@@ -88,6 +93,9 @@ body {
     .cover-container {
         width: 100%;
     }
+    .logo-gagu {
+        max-width: 80%;
+    }
 }
 
 @media (min-width: 992px) {
@@ -96,12 +104,16 @@ body {
     .cover-container {
         width: 700px;
     }
+    .logo-gagu {
+        max-width: 90%;
+    }
 }
 @media (max-width: 767px) {
     body {
         background-position: 60% center;
     }
 }
+
 
         </style>
 
@@ -121,10 +133,13 @@ body {
                 <div class="cover-container">
 
                     <div class="inner">
-                        <h1 class="cover-heading" style="font-size: 25px;">
-                            Lanches Gagu
-                        </h1>
-                        <p>Desde 1995</p>
+                        <img src="logo-gagu.png" class="logo-gagu" alt="Logo Lanches Gagu" width="300">
+                        <div style="display: none;">
+                            <h1 class="cover-heading" style="font-size: 25px;">
+                                Lanches Gagu
+                            </h1>
+                            <p>Desde 1995</p>
+                        </div>
                     </div>
 
                     <div class="mastfoot">
